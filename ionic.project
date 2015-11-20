@@ -1,4 +1,10 @@
 {
   "name": "ionCordova",
-  "app_id": "c109c3cd"
+  "app_id": "c109c3cd",
+  "proxies": [
+  	{
+  		"path": "/v1",
+  		"proxyUrl": "http://localhost:3000/"
+  	}
+  ]
 }
