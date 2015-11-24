@@ -20,7 +20,8 @@
     <!-- Cordova is bootstrapped by ionic-platform-web-client, uncomment this if you remove ionic-platform-web-client... -->
 <!-- <script src="cordova.js"></script> -->
 
-    <script src="http://chat.socket.io/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.3.7.js"></script>
     <!-- Other Libraries-->
     <script src="lib/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="lib/angular-socket-io/socket.js"></script>
@@ -41,5 +42,8 @@
 
   <body ng-app="starter">
     <ion-nav-view></ion-nav-view>
+    <script type="text/javascript">
+    var socket = io('http://damp-plains-1400.herokuapp.com');
+    </script>
   </body>
 </html>

@@ -2,13 +2,17 @@
   "name": "ioncordova",
   "version": "1.1.1",
   "description": "ionCordova: An Ionic project",
+  "scripts": {
+      "start": "node index.js"
+    },
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
     "gulp-concat": "^2.2.0",
     "gulp-minify-css": "^0.3.0",
     "gulp-rename": "^1.2.0",
-    "express": "3.4.8"
+    "express": "3.4.8",
+    "socket.io": "^1.3.2"
   },
   "devDependencies": {
     "bower": "^1.3.3",
